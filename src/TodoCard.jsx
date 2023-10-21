@@ -1,9 +1,9 @@
 import './TodoCard.css'
 
-export default function TodoCard() {
+export default function TodoCard(props) {
   return (
     <div class="card">
-      hi
+      {props.text}
     </div>
   )
 }
