@@ -1,3 +1,25 @@
-.input {
-  
+#input {
+  position: sticky;
+  bottom: 4%;
+  margin-top: 40%;
+}
+
+#input-box {
+  width: 80%;
+  padding: 20px;
+  border-radius:15px;
+  border-color: #249EF0;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.1);;
+  margin-right: 1%;
+  display: inline-block;
+}
+
+#submit-btn {
+  border: none;
+  padding: 10px;
+  background-color: #249EF0;
+  color: white;
+  border-radius:10px;
+  width: 10%;
+  display: inline-block;
 }

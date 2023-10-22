@@ -7,7 +7,7 @@ import './Input.css'
 export default function Input({ addTodo }) {
   const submit = (e) => {
     e.preventDefault()
-    let form = document.getElementById('todo')
+    let form = document.getElementById('input-box')
     let input = form.value
     form.value = ''
 
@@ -15,10 +15,10 @@ export default function Input({ addTodo }) {
     addTodo(input)
   }
   return (
-    <div className="input">
+    <div id="input">
       <form>
-        <input type="text" id="todo" placeholder="What do you need to do?" />
-        <button type="submit" onClick={(e)=>submit(e)}>Submit</button>
+        <input type="text" id="input-box" placeholder="What do you need to do?" />
+        <button type="submit" id="submit-btn" onClick={(e)=>submit(e)}>Submit</button>
       </form>
     </div>
   );
